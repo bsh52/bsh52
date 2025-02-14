@@ -93,7 +93,7 @@ const parser = new Parser({
     console.log(`추가될 제목: ${title}`);
     console.log(`추가될 링크: ${link}`);
     console.log(`추가될 날짜: ${pubDate}`);
-    text += `<li><a href='${link}' target='_blank'>${title}</a><div style="display: inline-block; margin-left: 8px; font-size: 12px;">${formatPubDate(pubDate)}</div></li>`;
+    text += `<li><a href='${link}' target='_blank'>${title}</a><div align="right" style="display: inline; font-size: 12px;">${formatPubDate(pubDate)}</div></li>`;
   }
 
   text += `</ul>`;
