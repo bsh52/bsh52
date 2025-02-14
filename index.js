@@ -66,6 +66,25 @@ const parser = new Parser({
 
   text += `<ul>`;
 
+  // 날짜 변환
+  function formatPubDate(pubDate) {
+    const date = new Date(pubDate); // 문자열을 Date 객체로 변환
+
+    const options = {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      weekday: 'short', // 요일 (예: Fri)
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false, // 24시간 형식
+    };
+
+    return new Intl.DateTimeFormat('en-US', options).format(date)
+        .replace(',', '') // 불필요한 콤마 제거
+        .replace(/\//g, '-'); // 월/일/년을 년-월-일 형식으로 변경
+  }
+
   // 최신 5개의 글의 제목과 링크를 가져온 후 text에 추가
   for (let i = 0; i < 5; i++) {
     const { title, link, pubDate } = feed.items[i];
@@ -73,7 +92,7 @@ const parser = new Parser({
     console.log(`추가될 제목: ${title}`);
     console.log(`추가될 링크: ${link}`);
     console.log(`추가될 날짜: ${pubDate}`);
-    text += `<li><a href='${link}' target='_blank'>${title}</a><span>${pubDate}</span></li>`;
+    text += `<li><a href='${link}' target='_blank'>${title}</a><span>${formatPubDate(pubDate)}</span></li>`;
   }
 
   text += `</ul>`;
