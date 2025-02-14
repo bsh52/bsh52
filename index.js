@@ -50,7 +50,6 @@ let text = `## Hi there 👋
 </div>
 
 ## 📕 Latest Blog Posts
-<style>.dev-blog-date{margin-left: 8px; font-size: 12px;}</style>
 
 `;
 
@@ -94,7 +93,7 @@ const parser = new Parser({
     console.log(`추가될 제목: ${title}`);
     console.log(`추가될 링크: ${link}`);
     console.log(`추가될 날짜: ${pubDate}`);
-    text += `<li><a href='${link}' target='_blank'>${title}</a><span class="dev-blog-date">${formatPubDate(pubDate)}</span></li>`;
+    text += `<li><a href='${link}' target='_blank'>${title}</a><span style="margin-left: 8px; font-size: 12px;">${formatPubDate(pubDate)}</span></li>`;
   }
 
   text += `</ul>`;
