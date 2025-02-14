@@ -50,6 +50,7 @@ let text = `## Hi there 👋
 </div>
 
 ## 📕 Latest Blog Posts
+<style>.dev-blog-date{margin-left: 8px; font-size: 12px;}</style>
 
 `;
 
@@ -64,7 +65,7 @@ const parser = new Parser({
   // 피드 목록
   const feed = await parser.parseURL('https://baek-dev.tistory.com/rss'); // 본인의 블로그 주소
 
-  text += `<ul><style>.dev-blog-date{margin-left: 8px; font-size: 12px;}</style>`;
+  text += `<ul>`;
 
   // 날짜 변환
   function formatPubDate(pubDate) {
