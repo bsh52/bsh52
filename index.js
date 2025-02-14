@@ -64,7 +64,7 @@ const parser = new Parser({
   // 피드 목록
   const feed = await parser.parseURL('https://baek-dev.tistory.com/rss'); // 본인의 블로그 주소
 
-  text += `<ul>`;
+  text += `<ul><style>.dev-blog-date{margin-left: 8px; font-size: 12px;}</style>`;
 
   // 날짜 변환
   function formatPubDate(pubDate) {
@@ -93,7 +93,7 @@ const parser = new Parser({
     console.log(`추가될 제목: ${title}`);
     console.log(`추가될 링크: ${link}`);
     console.log(`추가될 날짜: ${pubDate}`);
-    text += `<li><a href='${link}' target='_blank'>${title}</a><span class="dev-blog-date">${formatPubDate(pubDate)}</span><style>.dev-blog-date{margin-left: 8px; font-size: 12px;}</style></li>`;
+    text += `<li><a href='${link}' target='_blank'>${title}</a><span class="dev-blog-date">${formatPubDate(pubDate)}</span></li>`;
   }
 
   text += `</ul>`;
