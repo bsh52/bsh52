@@ -74,15 +74,16 @@ const parser = new Parser({
       year: 'numeric',
       month: '2-digit',
       day: '2-digit',
-      weekday: 'short', // 요일 (예: Fri)
+      weekday: 'short', // 요일 (예: 금)
       hour: '2-digit',
       minute: '2-digit',
       hour12: false, // 24시간 형식
+      timeZone: 'Asia/Seoul' // 한국 시간 기준
     };
 
     return new Intl.DateTimeFormat('ko-KR', options).format(date)
         .replace(',', '') // 불필요한 콤마 제거
-        .replace(/\//g, '-'); // 월/일/년을 년-월-일 형식으로 변경
+        .replace(/\//g, '.'); // 월/일/년을 "YYYY. MM. DD" 형식으로 변경
   }
 
   // 최신 5개의 글의 제목과 링크를 가져온 후 text에 추가
