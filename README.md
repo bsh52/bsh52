@@ -1,5 +1,4 @@
 ## Hi there 👋
-
 <div align="center">
   <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33">🛠️ Tech Stacks</h2>
   <br />
@@ -42,22 +41,7 @@
   <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33">🏅 Stats</h2>
   <div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bsh52&layout=compact&bg_color=180,000000,&title_color=000000&text_color=000000" /></div>
 </div>
-<!-- <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🏅 Stats </h2> 
-    <div style="text-align: left;">  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bsh52&layout=compact&bg_color=180,ffffff,00000000&title_color=000000&text_color=000000"/> </div> 
-</div>
- -->
-<!--
-**paek1127/paek1127** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+## 📕 Latest Blog Posts
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-  -->
+<ul><li><a href='https://baek-dev.tistory.com/121' target='_blank'>DFS, BFS</a><span>Fri 02-14-2025, 11:28</span></li><li><a href='https://baek-dev.tistory.com/120' target='_blank'>[React] useEffect, useState</a><span>Thu 02-13-2025, 10:08</span></li><li><a href='https://baek-dev.tistory.com/119' target='_blank'>git branch 별 차이 (dev, origin dev, origin/dev)</a><span>Tue 02-11-2025, 09:35</span></li><li><a href='https://baek-dev.tistory.com/118' target='_blank'>[Spring Boot] JaCoCo (Java Code Coverage)</a><span>Mon 02-10-2025, 09:56</span></li><li><a href='https://baek-dev.tistory.com/117' target='_blank'>[Spring Boot] @Slf4j</a><span>Sun 02-09-2025, 05:55</span></li></ul>
