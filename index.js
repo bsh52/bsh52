@@ -80,7 +80,7 @@ const parser = new Parser({
       hour12: false, // 24시간 형식
     };
 
-    return new Intl.DateTimeFormat('en-US', options).format(date)
+    return new Intl.DateTimeFormat('ko-KR', options).format(date)
         .replace(',', '') // 불필요한 콤마 제거
         .replace(/\//g, '-'); // 월/일/년을 년-월-일 형식으로 변경
   }
