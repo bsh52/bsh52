@@ -1,3 +1,7 @@
+.github
+.idea
+node_modules
 baseREADME.md
-/node_modules
-.idea/
+index.js
+package.json
+package-lock.json
