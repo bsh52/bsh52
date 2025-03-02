@@ -1,4 +1,5 @@
 ## Hi there 👋
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbsh52%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 <div align="center">
   <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33">🛠️ Tech Stacks</h2>
   <br />
@@ -34,7 +35,10 @@
 <div align="center">
   <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33">🧑‍💻 Contact me</h2>
   <br />
-  <div align="center"></div>
+  <div align="center">
+    <a href="https://baek-dev.tistory.com/" style="display: inline-block;"><img src="https://img.shields.io/badge/My tech blog-A9BCF5?style=flat-square&logo=tistory&logoColor=white&link=https://baek.tistory.com/"/></a>
+    <a href="mailto:paek1127@gmail.com"><img src="https://img.shields.io/badge/Gmail-D0A9F5?style=flat-square&logo=Gmail&logoColor=white&link=mailto:paek1127@gmail.com"/></a>
+  </div>
   <br />
   <div align="center"></div>
 </div>
